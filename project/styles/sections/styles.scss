@@ -94,7 +94,10 @@ text-align:center;
 {
 	height: 56px;
 }
-
+.img-hover, .hoverInfo
+{
+	display:none;
+}
 .panes
 {
 
@@ -383,6 +386,10 @@ img
 {
 	display:none;
 }
+
+.img-hover-2,.hoverInfo-2,{
+	display:none;
+}
 @media (min-width: 321px) {
 
 .wrapper
@@ -473,7 +480,7 @@ margin-right:15px;
 	margin-top: 62px;
 }
 .first_content__description{
-width:565px;
+width:586px;
 margin:70px auto 0px;
 
     font-size: 20px;
@@ -491,6 +498,7 @@ margin:70px auto 0px;
 }
 .list_li {
     height: 41px;
+    position:relative;
 }
 
 .first_content__tabs {
@@ -513,7 +521,7 @@ div.panes div {
 
 
 #plane {
-    margin-left: 266px;
+    margin-left: 226px;
     margin-right:0;
  
     img
@@ -558,7 +566,7 @@ width: 71px;
     margin-top: 105px;
 }
 .button_order {
-    width: 181px;
+    width: 205px;
   
 }
 .button {
@@ -605,7 +613,7 @@ width: 71px;
 
     
 
-    margin-left: 273px;
+    margin-left: 232px;
 
 img
 {
@@ -650,10 +658,57 @@ img
 .item_4 
 {
 	margin-top: 50px;
-	margin-left: 273px;
+	margin-left: 235px;
+.items__desription{
+	position: relative;
+}
+	    
 	.items__header {
  
     margin-top: 24px;
+}
+.hoverInfo-2
+{
+	display:none;
+}
+.img-hover-2
+{
+	display:initial;
+	position:relative;
+	 padding-left: 9px;
+	 height:auto;
+	 width: auto;
+}
+.hoverInfo-2
+{
+      position: absolute;
+    background-color: white;
+    width: 229px;
+    height: 150px;
+    z-index: 2;
+    font-size: 13px;
+    font-family: "Roboto";
+    color: #424242;
+    line-height: 1.2;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    top: 29px;
+    right: -208px;
+    text-align:left;
+
+
+}
+
+.hoverInfo__text-2
+{
+	margin:14px 0px 0px 12px;
+}
+.img-hover-2:hover~.hoverInfo-2,.img-hover-2:hover  {
+    display:initial;
+
+
+
 }
   img
 	{
@@ -664,7 +719,7 @@ img
 .item_5
 {
 	margin-top: 50px;
-	margin-left: 265px;
+	margin-left: 236px;
 	.items__header {
  margin-left:-42px;
     margin-top: 24px;
@@ -707,5 +762,45 @@ img
 }
 }
 }
+ .hoverInfo
+{
+	display:none;
+}
+.img-hover
+{
+	display:initial;
+	position:relative;
+	 padding-left: 20px;
+}
+.hoverInfo
+{
+      position: absolute;
+    background-color: white;
+    width: 229px;
+    height: 60px;
+    z-index: 2;
+    font-size: 13px;
+    font-family: "Roboto";
+    color: #424242;
+    line-height: 1.2;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    top: 26px;
+    right: -208px;
+
 
 }
+
+.hoverInfo__text
+{
+	margin:17px 10px;
+}
+.img-hover:hover~.hoverInfo,.img-hover:hover  {
+    display:initial;
+}
+
+
+
+}
+
